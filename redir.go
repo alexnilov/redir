@@ -11,6 +11,7 @@ func redirect(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	appengine.Main()
     http.HandleFunc("/", redirect)
     err := http.ListenAndServe(":9090", nil)
     if err != nil {
