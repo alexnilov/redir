@@ -1,0 +1,10 @@
+{
+  "project_name": "redir",
+  "project_description": "redirect to best life",
+  "show_files": [
+    "redir.go",
+    "app.yaml"
+  ],
+  "read_only_demo_url": "https://try-go-demo-dot-cloud-playground.appspot.com/",
+  "download_filename": "appengine-try-go.zip"
+}
